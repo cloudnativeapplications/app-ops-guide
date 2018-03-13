@@ -1,0 +1,8 @@
+= Cloud Native Applicatrion Operations Guide
+
+== License
+
+The content of this repository falls under two licenses:
+
+* Software, including snippets, are licensed under the Apache 2 license
+* Documentation is licensed under the Creative Commons Attribution 4.0 International
