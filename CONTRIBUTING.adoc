@@ -1,0 +1,78 @@
+= Contributing Guidelines
+
+The Cloud Native Applicatrion Operations Guide accepts contributions via pull requests. This document has some guidance on contributing.
+
+== Developer Certificate of Origin (DCO)
+
+By contributing to this project you agree to the https://developercertificate.org[Developer Certificate of Origin (DCO)] which states:
+
+....
+Developer Certificate of Origin
+Version 1.1
+
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+1 Letterman Drive
+Suite D4700
+San Francisco, CA, 94129
+
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
+....
+
+Contributors sign-off that they adhere to these requirements by adding a
+Signed-off-by line to all commit messages. For example:
+
+....
+Example commit message
+
+Signed-off-by: Random J Developer <random@developer.example.org>
+....
+
+The following Git command will automatically sign a commit message. The `--signoff` or `-s`, for short, tells Git to add the signed-off line.
+
+....
+$ git commit -s -m 'Example commit message'
+....
+
+https://github.com/apps/dco[A bot] is in use to enforce the DCO.
+
+== Toolchain
+
+The toolchain used for development consists of a few parts.
+
+=== AsciiDoc
+
+The content is written using https://en.wikipedia.org/wiki/AsciiDoc[AsciiDoc]. This is used instead of more popular formats, such as markdown, because AsciiDoc supports a richer set of features such as notices (info, warnings, etc) that are useful to have in technical documentation.
+
+For those already familiar with markdown, a https://asciidoctor.org/docs/asciidoc-syntax-quick-reference[quick reference guide] that illistrates the conventions is often enough to get started.
+
+=== GitBook
+
+The book is currently built with https://www.gitbook.com[GitBook], though other toolchains may be used in the future. https://toolchain.gitbook.com[Toolchain documentation] is available that details how to get the toolchain setup, how the directory structure works, and other nuances. All of this is in a GitBook where you can see the output in action. 
